@@ -1,0 +1,1 @@
+This repository demonstrates a common issue with nested routes in React Router v6.  The problem arises when a more specific nested route path (`/about/*`) overrides a more general parent route path (`/about`). This prevents the parent route from ever being matched, resulting in unexpected behavior. The solution shows how to restructure the routes to resolve this conflict.
